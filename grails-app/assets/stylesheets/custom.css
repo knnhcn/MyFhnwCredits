@@ -1,0 +1,64 @@
+.main-nav {
+    vertical-align: middle;
+    line-height: 20px;
+    padding-top: 25px;
+    display: inline-block;
+    marging: 20px;
+}
+
+.main-nav a {
+    padding-right: 15px;
+    padding: 25px;
+    border-radius: 0.3em;
+}
+.main-nav a:hover {
+    background-color: #feb672;
+}
+
+#courses-table{width:100%;} /*or whatever width you want*/
+#courses-table td:nth-last-child(-n+3){width:calc(100%/6);} /*something big*/
+
+.fa-check {
+    color: green;
+}
+.fa-exclamation {
+    color: #ff8c00;
+}
+.fa-ban {
+    color: red;
+}
+.fa-exclamation-triangle {
+    color: red;
+}
+.fa-check-circle-o {
+    color: green;
+}
+
+.link-description {
+    text-align: center;
+    line-height: 90px;
+}
+
+.overview {
+    font-size: 12pt;
+    padding: 10px;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+}
+
+.achieved-text {
+    font-weight: bold;
+}
+.minus-text {
+    font-weight: bold;
+}
+
+.achieved-container span{
+    padding: 20px 15px;
+    display: inline-block;
+}
+.minus-container span{
+    padding: 5px 15px;
+    display: inline-block;
+}
